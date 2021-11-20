@@ -9,7 +9,7 @@ function calculation() {
     }
     console.log(calculation);
     var elHeading = document.querySelector("#heading")
-    elHeading.textContent = `The calculation is ${calculation}`
+    elHeading.textContent = `The sum of the numbers is ${calculation}`
 }
 
 function sumInput() {
